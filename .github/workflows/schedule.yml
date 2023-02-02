@@ -4,7 +4,7 @@ on:
     branches:
       - master
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 9 * * *"
   # Manual triggers with workflow_dispatch
   workflow_dispatch:
 jobs:
